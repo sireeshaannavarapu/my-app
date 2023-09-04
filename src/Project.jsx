@@ -20,7 +20,7 @@ function Project(){
         setTour([...temp])
     }
     function readmore(ind){
-       var temp=([...tour])
+        var temp=([...tour])
        temp[ind].flag =! temp[ind].flag
        setTour([...temp])
     }
