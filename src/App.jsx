@@ -5,9 +5,10 @@ import './App.css';
 import axios from 'axios';
 import Project from './Project';
 // import 'bootstrap/dist/css/bootstrap.css';
- import Accordion from './Accordion';
- import Reviews from './Testimonialreview';
+import Accordion from './Accordion';
  
+ import Reviews from './Testimonialreview';
+
 // import shop from './Shopping'
 
 
