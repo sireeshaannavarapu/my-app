@@ -8,6 +8,10 @@ import Project from './Project';
 import Accordion from './Accordion';
  
  import Reviews from './Testimonialreview';
+ import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import Shopping from './Shopping';
+
 
 // import shop from './Shopping'
 
@@ -26,7 +30,8 @@ function App() {
     
       {/* <Sorting></Sorting> */}
      <Accordion></Accordion>
-     <Reviews></Reviews> 
+     <Reviews></Reviews>
+     <Shopping></Shopping> 
       
     </div>
   );
