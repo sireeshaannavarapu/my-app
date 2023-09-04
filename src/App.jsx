@@ -4,9 +4,11 @@ import './App.css';
 
 import axios from 'axios';
 import Project from './Project';
-import 'bootstrap/dist/css/bootstrap.css';
-import Accordion from './Accordion';
-import Reviews from './Testimonialreview';
+// import 'bootstrap/dist/css/bootstrap.css';
+ import Accordion from './Accordion';
+ import Reviews from './Testimonialreview';
+ 
+// import shop from './Shopping'
 
 
 
@@ -23,7 +25,7 @@ function App() {
     
       {/* <Sorting></Sorting> */}
      <Accordion></Accordion>
-     <Reviews></Reviews>
+     <Reviews></Reviews> 
       
     </div>
   );
